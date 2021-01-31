@@ -1,0 +1,174 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.contair {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.contair img {
+    border: rgb(0, 0, 0) solid 1px;
+    position: absolute;
+}
+.nav {
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    text-align:end;
+    
+    margin-left: 50%;
+}
+.nav ul li{
+    display: inline-flex;
+
+    
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.nav ul li:hover a{
+    text-decoration: underline;
+}
+.nav ul li {
+    padding: 0 10px;
+}
+
+.nav2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.nav2 ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 8px;
+}
+.nav2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav2 ul li a:hover{
+    text-decoration: underline;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title{
+ 
+    margin-top: 10vh;
+    
+}
+.main{
+    margin-top: 10vh;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    border: #95a5a6 solid 2px;
+    width: calc(25% - 30px);
+    padding: 10px;
+    height: 75vh;
+    transition: margin-top .5s;
+}
+
+.card:hover{
+    box-shadow: inset;
+    box-shadow: 0 0 5px rgba(52, 73, 94,1.0);
+    margin-top: 2vh;
+}
+
+
+h3{
+    padding-left: 18px;
+    margin: 15px 0;
+}
+.card img {
+    width: 100%;
+    height: 55vh;
+}
+.lin1 {
+    color: #95a5a6;
+    padding-left: 18px;
+}
+.lin2 {
+    
+    padding-left: 18px;
+}
+.lin3 {
+    color: #27ae60;
+    padding-left: 18px;
+}
+@media (max-width: 768px) {
+    .cards {
+        display: block;
+        margin: auto;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 30px;
+        
+        
+    }
+    .contair img {
+        position: relative;
+        margin: auto;
+    }
+    .lin3 {
+        color: red;
+    }
+    .nav {
+        width: 95%;
+        margin: auto;
+        text-align:center;
+    }
+    .nav ul li {
+        border: solid black 1px;
+        padding: 5px 8px;
+    }
+    .nav ul li a {
+        font-size: 12px;
+    }
+    .nav ul li:hover a{
+        text-decoration: underline;
+    }
+    .title{
+ 
+        margin-top: 4vh;
+        
+    }
+    .main{
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    .nav2 ul li {
+        list-style: none;
+        display: inline-flex;
+        padding: 0 2px;
+    }
+   .nav2 {
+    margin-top: 1px;
+    font-size: 15px;
+   }
+   
+   
+}
