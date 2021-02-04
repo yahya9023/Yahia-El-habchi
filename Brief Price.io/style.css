@@ -322,6 +322,9 @@ footer ul a {
     height: 18px;
     cursor: pointer;
 }
+.foot {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .image2 {
@@ -403,7 +406,7 @@ footer ul a {
         left: -8px;
     }
     footer {
-        display: block;
+        display: none;
         text-align: center;
     }
     footer .sing-footer {
@@ -419,5 +422,37 @@ footer ul a {
     .card-price {
         padding: 0 26px;
         font-size: 16px;
+    }
+    .foot {
+        display: block;
+        background-color: black;
+        width: 100%;
+
+    }
+    .foot a {
+        border: solid 2px #0D65F8;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    .foot ul {
+        margin: 20px;
+    }
+    .foot .logo-final {
+        border: solid  #0D65F8 2px;
+        border-radius: 50%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .flex {
+        background-color: white;
+        border-radius: 3px;
+        padding-top: 10px;
+        margin: 10px 0;
+    }
+    .p {
+        margin: 10px 0;
+        color: #fff;
+        padding-bottom: 25px;
     }
 }
