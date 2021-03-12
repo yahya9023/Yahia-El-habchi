@@ -1,0 +1,10 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: linear-gradient(to right, #ed4264, #ffedbc);
+}
+h1 {
+  color: black;
+}

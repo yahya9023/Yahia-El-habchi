@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Akaya Telivigala", cursive;
+}
+body {
+  color: #2c3e50;
+  font-size: 15px;
+  line-height: 1.5em;
+  background: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+.titleBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  height: 5vh;
+  width: 40%;
+  margin: 25px auto;
+  border-radius: 6px;
+}
+
+.messages {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  border: #3498db solid 1px;
+  margin-top: 3em;
+  height: 63vh;
+  padding: 2em;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.messages:hover {
+  background-color: #e5f4ff;
+}
+.message {
+  margin-top: 0.5em;
+  list-style: none;
+  transition: all 0.5s ease;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1em;
+  height: 10vh;
+}
+
+#utilisateur {
+  width: 25%;
+  padding: 8px;
+  border: solid 1px #3498db;
+  border-radius: 13px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+#utilisateur:hover {
+  background-color: #e5f4ff;
+}
+#message {
+  width: 55%;
+  padding: 8px;
+  border: solid 1px #3498db;
+  border-radius: 13px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+#message:hover {
+  background-color: #e5f4ff;
+}
+#submit {
+  padding: 8px 25px;
+  border-radius: 13px;
+  border: solid 1px #3498db;
+}
